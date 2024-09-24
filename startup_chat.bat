@@ -7,5 +7,5 @@ If Not Exist "%~dp0%\.venv\Scripts\activate.bat" (
 )
 
 call "%~dp0%\.venv\Scripts\activate"
-python random_kt_episode.py @KillTony
+python main.py @KillTony
 pause
