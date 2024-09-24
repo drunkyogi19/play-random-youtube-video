@@ -18,8 +18,8 @@ This script selects a random video from a specified YouTube channel and opens it
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/yourusername/random-youtube-video-selector.git
-    cd random-youtube-video-selector
+    git clone https://github.com/NuclearGeekETH/play-random-youtube-video.git
+    cd play-random-youtube-video
     ```
 
 2. **Create a virtual environment and install dependencies**
@@ -61,7 +61,7 @@ To use the script with a different YouTube channel, you can modify the batch fil
 3. **Run the script**
 
     ```sh
-    python random_kt_episode.py @YourChannelName
+    python main.py @YourChannelName
     ```
 
 ### Batch File Usage
@@ -78,7 +78,7 @@ If Not Exist "%~dp0%\.venv\Scripts\activate.bat" (
 )
 
 call "%~dp0%\.venv\Scripts\activate"
-python random_kt_episode.py @KillTony
+python main.py @KillTony
 pause
 ```
 
@@ -88,5 +88,5 @@ pause
 To use a different channel, modify the batch file's last line to:
 
 ```bat
-python random_kt_episode.py @YourChannelName
+python main.py @YourChannelName
 ```
